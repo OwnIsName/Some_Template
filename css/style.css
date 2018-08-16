@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #FF9696;
+	width: 100%;
+	padding-bottom: 30px;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+ .header__nav{
+	display: flex;
+	flex-direction: column;
+	margin: 20px 20px 0 20px;
+	min-height: 100px;
+}
+
+.header__nav__menu{	
+	margin: 20px ;
+}
+ .header__nav__menu__ul{
+	 display: flex;
+	justify-content: space-around;
+	list-style: none;
+	height: 100%;	
+}
+.header__nav__menu__ul-li{
+	display: flex;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.header__nav__menu__ul-li a{
+	box-sizing: border-box;
+	font-size: 20px;
+	min-width: 150px;
+	margin: auto;
+	color: white;
+}
+
+.header__nav__menu__ul-li a:hover{
+	transition: 0.2s;
+	color: #BF7070;
+}
+.header__nav__logo{
+	margin: 50px auto 0px;
+	width: 80px;
+	height: 80px;
+}
+
+
+.header__search{
+	margin-top: 60px;
+
+}
+
+.header__search__form{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.header__search__input{
+	height: 30px;
+	min-width: 40%;
+	font-size: 20px;
+	border: none;
+	outline:none;
+	border-bottom: 1px solid #FF9696;
+}
+
+.header__search__button{
+	height: 35px; 
+	outline:none;
+	width: 35px;
+	border: none;
+	margin: auto 0 auto 30px;
+	background: url("../img/search-icon.png") no-repeat center;
+}
+
+.header__search__button:active{
+	transition: 0.2s;
+	background: url("../img/search-icon-active.png") no-repeat center; 
+}
+
+.main__section{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	padding: 0 60px 0 60px;		
+}
+.track{
+	margin: 30px;
+}
+
+.track :hover{
+	transition: 0.5s;
+	color:#BF7070;
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
+}
+.track img{
+	margin-top: 15px;
+	box-shadow: 0px 2px 25px 0px rgba(0,0,0,0.75);	
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #FF9696;
+	width: 100%;
+	height: 100px;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+
